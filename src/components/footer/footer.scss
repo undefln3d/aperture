@@ -1,0 +1,126 @@
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.info {
+  height: 652px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  width: 1168px;
+  height: 452px;
+  background: rgba(0, 0, 0, 0.84);
+}
+.block__upper {
+  height: 236px;
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+  }
+}
+.block__upper-text {
+  display: flex;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+  }
+  a {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+.block__upper-left {
+  width: 220.8px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+}
+.block__upper-right {
+  width: 220.8px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.block__line {
+  height: 2px;
+  background: #ffffff;
+}
+.block__middle {
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+  }
+}
+.block__middle_input {
+  height: 52px;
+  width: 458px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 12px;
+  background: #FFFFFF;
+}
+.block__middle_input_click {
+  height: 30px;
+  width: 63px;
+  border-radius: 11px;
+  margin-right: 6px;
+  background: black;
+}
+.block__lower {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+  }
+}
+.block__lower-messenger {
+  width: 112px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  width: 24px;
+  height: 20px;
+  background: url('../../images/twitter.svg');
+}
+.instagram {
+  width: 24px;
+  height: 24px;
+  background: url('../../images/instagram.svg');
+}
+.facebook {
+  width: 11.25px;
+  height: 24px;
+  background: url('../../images/facebook.svg');
+}

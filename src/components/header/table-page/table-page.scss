@@ -1,0 +1,55 @@
+.table-row__head {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 26%, rgba(119,13,75,1) 67%, rgba(0,212,255,1) 100%);
+  th {
+    color: white;
+  }
+  th:hover {
+    text-shadow: 0 0 8px linen;
+  }
+}
+.table-row__body:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.04);
+}
+.drawer-space {
+  background: url('../../../images/space.jpg');
+  width: 350px;
+  height: 100%;
+  div {
+    color: white;
+  }
+  div:hover {
+    text-shadow: 0 0 8px linen;
+  }
+}
+.button-clear-on {
+  background: #1aff00;
+  border-radius: 8px;
+  }
+.button-clear-on:hover {
+  background: rgba(26, 255, 0, 0.84);
+}
+.button-clear-off {
+  background: #ff0000;
+  border-radius: 8px;
+}
+.button-clear-off:hover {
+  background: rgba(255, 0, 0, 0.84);
+}
+.button__drawer {
+  background: rgb(255, 255, 255);
+  position: fixed;
+  width: 100px;
+  height: 600px;
+  margin-top: 200px;
+  border-radius: 40px;
+  font-size: 30px;
+  p{
+  }
+}
+.visibility-off {
+  visibility: collapse;
+}
+.visibility-on {
+  visibility: unset;
+}

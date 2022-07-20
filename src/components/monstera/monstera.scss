@@ -1,0 +1,17 @@
+.monstera {
+  background: url('../../images/Monstera.svg');
+  width: auto;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.monstera_frame {
+  padding-top: 204px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  p {
+    padding-left: 6px;
+  }
+}

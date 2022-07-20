@@ -1,0 +1,224 @@
+.container-register {
+  border: 3px solid #37474f;
+  color: white;
+  width: 300px;
+  height: 510px;
+  border-radius: 55px;
+  background: #171717;
+  text-align: center;
+  padding-inline: 30px;
+  p {
+    color: #C0C0C0;
+  }
+  h3 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+}
+///////////////////media
+//*-------------------------------* 1440px *-------------------------------*\\
+@media (max-width: 1440px) {
+  .studios__frame {
+    padding-left: 0;
+  }
+  .product {
+    width: auto;
+    height: auto;
+  }
+  .table {
+    width: 520px;
+    height: auto;
+    justify-content: left;
+    mask-image: linear-gradient(to right, transparent, black 90px, black 90%, transparent);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-right: 70px;
+    padding-left: 100px;
+    .device {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    .architecture {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    .drone {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    .wildlife {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+  }
+  .fuji {
+    align-items: center;
+  }
+  .description {
+    padding-right: 0;
+    text-align: center;
+  }
+  .fuji_frame {
+    padding: 20px 0 20px 0;
+  }
+  .tools {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tools__title {
+    padding-left: 0;
+    text-align: center;
+  }
+  .tools__title-text3 {
+    width: auto;
+    height: auto;
+  }
+  .tools__title-button {
+    align-self: center;
+  }
+  .monstera {
+    align-items: center;
+  }
+  .monstera_frame {
+    padding-top: 20px;
+    padding-left:  35px;
+  }
+  .past-сlients {
+    width: auto;
+  }
+  .clients {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .starfall {
+    align-items: center;
+  }
+  .starfall_frame {
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+  .footer {
+    width: auto;
+  }
+  .offer {
+    width: auto;
+    h5 {
+      width: auto;
+    }
+  }
+  .info {
+    width: auto;
+  }
+  .block {
+    height: auto;
+  }
+  .block__upper {
+    height: auto;
+    p {
+      padding-right: 20px;
+    }
+  }
+  .block__upper-left {
+    width: auto;
+    height: auto;
+  }
+  .block__upper-right {
+    width: auto;
+    height: auto;
+    padding-right: 20px;
+  }
+}
+//*-------------------------------* 799px *-------------------------------*\\
+@media (max-width: 799px) {
+  .header__logo {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .header__menu {
+    padding-left: 28px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 115%;
+    a {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  .menu__button {
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+  .past-сlients__title {
+    h5 {
+      padding-top: 40px;
+    }
+  }
+  .clients {
+    width: 300px;
+    div {
+      padding-top: 20px;
+    }
+    padding-bottom: 40px;
+  }
+  .block__lower {
+    height: 100px;
+  }
+}
+//*-------------------------------* 699px *-------------------------------*\\
+@media (max-width: 699px) {
+  .header__menu {
+    mask-image: linear-gradient(to right, transparent, black 90px, black 90%, transparent);
+  }
+  .table {
+    padding-top: 100px;
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  .camera {
+    width: 400px;
+  }
+  .camera_frame {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .block__middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px 0;
+  }
+  .block__middle_input {
+    width: 300px;
+  }
+}
+//*-------------------------------* 399px *-------------------------------*\\
+@media (max-width: 399px) {
+  .logo {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+  .table {
+    width: 200px;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+  .camera {
+    width: auto;
+  }
+  .clients {
+    justify-content: center;
+    width: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+.starfall {
+  background: url('../../images/Starfall.svg');
+  width: auto;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.starfall_frame {
+  padding-top: 200px;
+  padding-bottom: 35px;
+  padding-right: 40px;
+  p {
+    padding-left: 6px;
+  }
+}
