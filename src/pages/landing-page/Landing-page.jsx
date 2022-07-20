@@ -1,13 +1,13 @@
-import './root-component.scss';
-import Studios from "../studios/Studios";
-import Fuji from "../fuji/Fuji";
-import Monstera from "../monstera/Monstera";
-import Starfall from "../starfall/Starfall";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import './landing-page.scss';
+import Studios from "../../components/studios/Studios";
+import Fuji from "../../components/fuji/Fuji";
+import Monstera from "../../components/monstera/Monstera";
+import Starfall from "../../components/starfall/Starfall";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import { useTranslation } from "react-i18next";
 
-const RootComponent = () => {
+const LandingPage = () => {
   const { t } = useTranslation();
 
   return (
@@ -27,7 +27,7 @@ const RootComponent = () => {
                 <p>{t("device_p")}</p>
                 <div className="button component-table__description_button">
                   <div className="button__click"/>
-                  <a href="/">{t("button__click-product-table")}</a>
+                  <a href="/src/pages">{t("button__click-product-table")}</a>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ const RootComponent = () => {
                 <p>{t("architecture_p")}</p>
                 <div className="button component-table__description_button">
                   <div className="button__click"/>
-                  <a href="/">{t("button__click-product-table")}</a>
+                  <a href="/src/pages">{t("button__click-product-table")}</a>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const RootComponent = () => {
                 <p className="component-table__description__text-padding">{t("drone_p")}</p>
                 <div className="button component-table__description_button">
                   <div className="button__click"/>
-                  <a href="/">{t("button__click-product-table")}</a>
+                  <a href="/src/pages">{t("button__click-product-table")}</a>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const RootComponent = () => {
                 <p className="component-table__description__text-padding">{t("wildlife_p")}</p>
                 <div className="button component-table__description_button">
                   <div className="button__click"/>
-                  <a href="/">{t("button__click-product-table")}</a>
+                  <a href="/src/pages">{t("button__click-product-table")}</a>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const RootComponent = () => {
             <p className="tools__title-text3">{t("tools__title-text3")}</p>
             <div className="button tools__title-button">
               <div className="button__click"/>
-              <a href="/">{t("tools__title-button")}</a>
+              <a href="/src/pages">{t("tools__title-button")}</a>
             </div>
           </div>
           <div className="camera">
@@ -109,7 +109,7 @@ const RootComponent = () => {
           <p>{t("offer_text_p")}</p>
           <div className="button tools__title-button"> {/*tools__title-button for text decoration*/}
             <div className="button__click"/>
-            <a href="/">{t("offer_text_button")}</a>
+            <a href="/src/pages">{t("offer_text_button")}</a>
           </div>
         </div>
       </body>
@@ -118,4 +118,4 @@ const RootComponent = () => {
   );
 }
 
-export default RootComponent;
+export default LandingPage;

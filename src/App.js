@@ -1,12 +1,12 @@
 import  {Routes,Route} from 'react-router-dom'
-import  RootComponent from './components/root_components/Root-component'
-import Register from "./components/email_form/Register";
-import TablePage from "./components/header/table-page/table-page";
+import  LandingPage from './pages/landing-page/Landing-page'
+import Register from "./pages/register-page/Register";
+import TablePage from "./pages/table-backend-page/Table-page";
 
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<RootComponent/>}/>
+      <Route path="/" element={<LandingPage/>}/>
       <Route path="/register" element={<Register/>}/>
       <Route path="/table_page" element={<TablePage/>}/>
     </Routes>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import TextField from '@mui/material/TextField';
-import './Register.scss';
+import './register.scss';
 import {Button, Container, FormControl, InputAdornment, InputLabel, OutlinedInput, IconButton, styled} from "@mui/material";
 import {Visibility, VisibilityOff} from "@mui/icons-material";
 import {useTranslation} from "react-i18next";
