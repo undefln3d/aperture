@@ -1,7 +1,7 @@
 import  {Routes,Route} from 'react-router-dom'
 import  LandingPage from './pages/landing-page/Landing-page'
 import Register from "./pages/register-page/Register";
-import TablePage from "./pages/table-backend-page/Table-page";
+import TablePage from "./pages/api-page/Table-page";
 
 const App = () => {
   return (

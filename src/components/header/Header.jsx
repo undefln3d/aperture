@@ -19,7 +19,8 @@ const Header = () => {
         <button className='button_language' onClick={() => changeLanguage("de")}>DE</button>
       </div>
       <div className="menu header__menu">
-        <a href="/table_page">{t("header__menu_text1")}</a>
+        <a href="/table_page">Star Wars</a>
+        <a href="/">{t("header__menu_text1")}</a>
         <a href="/">{t("header__menu_text2")}</a>
         <a href="/">{t("header__menu_text3")}</a>
         <a href="/">{t("header__menu_text4")}</a>
